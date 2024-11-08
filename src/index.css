@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[data-testid="flowbite-card-image"]{
+    height: 18rem;
+}
