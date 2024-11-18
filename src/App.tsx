@@ -26,7 +26,7 @@ function App() {
       <Router>
         <NavbarComponent about={about}/>
         <Routes>
-          <Route path="/" element={<Home/>}></Route>
+          <Route path="/" element={<Home about={about}/>}></Route>
           <Route path="/product" element={<Product/>}></Route>
           <Route path="/about" element={<About about={about}/>}></Route>
           <Route path="/contact" element={<Contact />}></Route>

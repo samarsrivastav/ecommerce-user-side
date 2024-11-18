@@ -20,6 +20,7 @@ export const About= ({ about }:{about:any}) => {
                 <p className="text-sm text-gray-500">Email: {about.email?about.email:"N/A"}</p>
                 <p className="text-sm text-gray-500">Phone: {about.phone?about.phone:"N/A"}</p>
                 <p className="text-sm text-gray-500">Location: {about.companyAdress?about.companyAdress:"N/A"}</p>
+                <p className="text-sm text-gray-500">Description: {about.companyDescription?about.companyDescription:"N/A"}</p>
                 <Link
                   to='/'
                   className="text-sm text-[#133e87] hover:text-blue-600"

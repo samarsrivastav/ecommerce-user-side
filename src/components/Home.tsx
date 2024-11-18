@@ -1,10 +1,10 @@
 import { Hero } from './subComp/Home/Hero'
 import { Product } from './subComp/Home/Product'
 
-export const Home = () => {
+export const Home = ({ about }:{about:any}) => {
   return (
     <>
-        <Hero/>
+        <Hero about={about}/>
         <Product/>
     </>
   )
